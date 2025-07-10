@@ -88,7 +88,7 @@ body {
 .left_content .paragraph {
     font-size: 24px;
     font-family: "Raleway", sans-serif;
-    color: #4b4b4b;
+    color: #969696;
     font-weight: 400;
     margin-bottom: 23px;
 }
@@ -96,3 +96,36 @@ body {
     border-radius: 48px;
 }
 /* end the action section */
+
+/* start the counter section */
+.counter_section {
+    margin-top: 116px;
+    background: #e5e7ff;
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+.counter_section .headings {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+}
+.counter_item_wp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter_item_wp .counter_item .heading {
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+.counter_item .paragraph {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #969696;
+}
+/* end the counter section */
