@@ -40,13 +40,18 @@ body {
 /* reused css */
 
 /* start the Navbar */
+.hero_bg_img {
+    background: url(../assets/images/Hero-bg.png) no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   height: 150px;
 }
-.logo {
+.logo a{
     font-weight: 700;
     font-size: 40px;
     font-family: "Inter", sans-serif;
@@ -64,7 +69,7 @@ body {
     margin-bottom: 37px;
 }
 .hero_content {
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 
 
@@ -280,3 +285,47 @@ body {
 
 /* end the contact section */
 
+
+/* start the footer section */
+.footer {
+    background: #fff;
+}
+.footer_area {
+    padding: 104px 0px;
+    width: 531px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_area .logo{
+    margin-bottom: 8px;
+}
+.footer_area .logo a {
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+}
+.footer_area .paragraph {
+    font-size: 16px;
+    color: #969696;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+} 
+.footer_area ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 48px;
+}
+.footer_area ul li:last-child {
+    margin-right: 0px;
+}
+.footer_area ul li a {
+    color: #969696;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    transition: all linear .3s;
+}
+.footer_area ul li a:hover {
+    color: #4E47FF;
+}
+/* end the footer section */
