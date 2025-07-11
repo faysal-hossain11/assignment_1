@@ -29,7 +29,7 @@ body {
     font-family: "Raleway", sans-serif;
     background: #4E47FF;
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
     text-decoration: none;
 }
@@ -197,3 +197,86 @@ body {
 }
 
 /* end the user review section */
+
+
+/* start the focus section */
+.focus_section {
+    margin-top: 116px;
+    padding: 80px 142px 50px;
+    background: #fff;
+    border-radius: 24px;
+}
+.focus_section .heading {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.focus_section .paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #969696;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.focus_section .image_box img {
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+/* end the focus section */
+
+
+/* start the contact section */
+.contact_wp {
+    padding-top: 116px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_wp .heading {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.right_form{
+    width: 497px;
+}
+.right_form .input_item {
+    margin-bottom: 19px;
+}
+.right_form input{
+    width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #cccccc;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.right_form textarea{
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    padding: 20px 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #cccccc;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.right_form label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.right_form .input_item {
+    margin-bottom: 20px;
+}
+.right_form button {
+    width: 100%;
+}
+
+/* end the contact section */
+
