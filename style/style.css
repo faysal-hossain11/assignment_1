@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* start the default css */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
+
 body {
     background: #f5f8ff;
 }
@@ -22,6 +24,7 @@ body {
 .text-center {
     text-align: center;
 }
+
 .primary_btn {
     padding: 14px 36px;
     border-radius: 10px;
@@ -32,7 +35,14 @@ body {
     font-weight: 600;
     font-size: 16px;
     text-decoration: none;
+    transition: all linear .3s;
 }
+
+.primary_btn:hover {
+    cursor: pointer;
+    background: lch(63.79% 99.16 329.5);
+}
+
 .section_padding {
     padding-top: 120px 0px;
 }
@@ -45,18 +55,21 @@ body {
     background-position: bottom left;
     background-size: cover;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  height: 150px;
+    height: 150px;
 }
-.logo a{
+
+.logo a {
     font-weight: 700;
     font-size: 40px;
     font-family: "Inter", sans-serif;
     color: #4E47FF;
 }
+
 /* end the Navbar */
 
 .hero_content .heading {
@@ -68,6 +81,7 @@ body {
     margin-top: 120px;
     margin-bottom: 37px;
 }
+
 .hero_content {
     padding-bottom: 200px;
 }
@@ -80,9 +94,11 @@ body {
     align-items: center;
     padding-top: 116px;
 }
+
 .left_content {
     max-width: 517px;
 }
+
 .left_content .heading {
     font-family: "Raleway", sans-serif;
     font-size: 42px;
@@ -90,6 +106,7 @@ body {
     margin-bottom: 23px;
     color: #252432;
 }
+
 .left_content .paragraph {
     font-size: 24px;
     font-family: "Raleway", sans-serif;
@@ -97,9 +114,11 @@ body {
     font-weight: 400;
     margin-bottom: 23px;
 }
+
 .right_image img {
     border-radius: 48px;
 }
+
 /* end the action section */
 
 /* start the counter section */
@@ -109,6 +128,7 @@ body {
     border-radius: 24px;
     padding: 50px 142px;
 }
+
 .counter_section .headings {
     font-size: 38px;
     font-weight: bold;
@@ -116,29 +136,34 @@ body {
     margin-bottom: 40px;
     font-family: "Raleway", sans-serif;
 }
+
 .counter_item_wp {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .counter_item_wp .counter_item .heading {
     font-size: 80px;
     color: #4E47FF;
     font-weight: 700;
     font-family: "Inter", sans-serif;
 }
+
 .counter_item .paragraph {
     font-size: 20px;
     font-weight: 500;
     font-family: "Inter", sans-serif;
     color: #969696;
 }
+
 /* end the counter section */
 
 /* start the user review section */
 .user_review {
     padding-top: 116px;
 }
+
 .user_review .heading {
     font-size: 42px;
     font-weight: bold;
@@ -146,22 +171,27 @@ body {
     margin-bottom: 50px;
     color: #252432;
 }
+
 .user_review_wp {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
+
 .user_card {
     padding: 24px;
     border-radius: 10px;
     background: #fff;
 }
+
 .user_card .star_icons {
     margin-bottom: 20px;
 }
+
 .user_card .star_icons i {
     color: #ffb805;
 }
+
 .user_card .title {
     font-size: 26px;
     font-weight: bold;
@@ -169,6 +199,7 @@ body {
     color: #252432;
     margin-bottom: 8px;
 }
+
 .user_card .paragraph {
     font-size: 16px;
     color: #252432;
@@ -186,10 +217,12 @@ body {
     width: 45px;
     height: 45px;
 }
+
 .user_card .user_img img {
     width: 100%;
     border-radius: 50%;
 }
+
 .user_info .nane {
     font-size: 16px;
     color: #969696;
@@ -197,6 +230,7 @@ body {
     font-family: "Inter", sans-serif;
     margin-bottom: 4px;
 }
+
 .user_info .designation {
     font-size: 16px;
     color: #969696;
@@ -214,6 +248,7 @@ body {
     background: #fff;
     border-radius: 24px;
 }
+
 .focus_section .heading {
     font-size: 50px;
     font-weight: bold;
@@ -221,6 +256,7 @@ body {
     color: #252432;
     margin-bottom: 20px;
 }
+
 .focus_section .paragraph {
     font-size: 16px;
     font-weight: 400;
@@ -228,6 +264,7 @@ body {
     font-family: "Inter", sans-serif;
     margin-bottom: 20px;
 }
+
 .focus_section .image_box img {
     border-radius: 48px;
     margin-top: 20px;
@@ -244,18 +281,22 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .contact_wp .heading {
     font-size: 65px;
     font-weight: bold;
     font-family: "Inter", sans-serif;
 }
-.right_form{
+
+.right_form {
     width: 497px;
 }
+
 .right_form .input_item {
     margin-bottom: 19px;
 }
-.right_form input{
+
+.right_form input {
     width: 100%;
     padding: 20px 32px;
     border-radius: 10px;
@@ -264,7 +305,8 @@ body {
     font-size: 17px;
     margin-top: 10px;
 }
-.right_form textarea{
+
+.right_form textarea {
     width: 100%;
     font-family: "Inter", sans-serif;
     padding: 20px 32px;
@@ -274,14 +316,17 @@ body {
     font-size: 17px;
     margin-top: 10px;
 }
+
 .right_form label {
     font-size: 18px;
     font-weight: 500;
     font-family: "Inter", sans-serif;
 }
+
 .right_form .input_item {
     margin-bottom: 20px;
 }
+
 .right_form button {
     width: 100%;
 }
@@ -293,42 +338,51 @@ body {
 .footer {
     background: #fff;
 }
+
 .footer_area {
     padding: 104px 0px;
     width: 531px;
     margin: 0 auto;
     text-align: center;
 }
-.footer_area .logo{
+
+.footer_area .logo {
     margin-bottom: 8px;
 }
+
 .footer_area .logo a {
     color: #4E47FF;
     font-size: 100px;
     font-weight: bold;
 }
+
 .footer_area .paragraph {
     font-size: 16px;
     color: #969696;
     font-family: "Inter", sans-serif;
     font-weight: normal;
     margin-bottom: 20px;
-} 
+}
+
 .footer_area ul li {
     list-style: none;
     display: inline-block;
     margin-right: 48px;
 }
+
 .footer_area ul li:last-child {
     margin-right: 0px;
 }
+
 .footer_area ul li a {
     color: #969696;
     font-size: 16px;
     font-family: "Inter", sans-serif;
     transition: all linear .3s;
 }
+
 .footer_area ul li a:hover {
     color: #4E47FF;
 }
+
 /* end the footer section */
