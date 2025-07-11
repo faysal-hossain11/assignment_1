@@ -51,7 +51,7 @@ body {
 
 /* start the Navbar */
 .hero_bg_img {
-    background-image: url("../assets/images/hero-bg.png");
+    background-image: url("../assets/images/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
