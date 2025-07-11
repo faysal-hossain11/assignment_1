@@ -41,7 +41,7 @@ body {
 
 /* start the Navbar */
 .hero_bg_img {
-    background: url(../assets/images/Hero-bg.png) no-repeat;
+    background: url(../assets/images/hero-bg.png) no-repeat;
     background-position: bottom left;
     background-size: cover;
 }
@@ -156,8 +156,11 @@ body {
     border-radius: 10px;
     background: #fff;
 }
-.user_card .star_img {
+.user_card .star_icons {
     margin-bottom: 20px;
+}
+.user_card .star_icons i {
+    color: #ffb805;
 }
 .user_card .title {
     font-size: 26px;
